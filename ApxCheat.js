@@ -6,7 +6,7 @@
 // @homepage https://github.com/apxcoding
 // @match *.krunker.io/*
 // @exclude *krunker.io/social*
-// @updateURL https://apxcoding.github.com/
+// @updateURL https://github.com/apxcoding/krunkercheat/blob/main/ApxCheat.js
 // @run-at document-start
 // @grant none
 // @noframes
