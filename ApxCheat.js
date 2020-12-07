@@ -76,7 +76,7 @@ class Utilities {
                 easyassist: "Easy Aim Assist",
                 silent: "Silent Aim",
                 trigger: "Trigger Bot",
-                quickScope: "Quick Scope"
+                quickScope: "Extreme Aimbot"
             },
             audioStreams: {
                 off: 'Off',
