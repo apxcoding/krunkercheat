@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name ApxCheat
 // @description A newly and safe developed Cheat from the ApxCoding Team
-// @version 1.0
+// @version 1.1
 // @author ApxCheats
 // @homepage https://github.com/apxcoding
 // @match *.krunker.io/*
@@ -632,7 +632,7 @@ class Utilities {
         })
 
         this.createListener(document, "keydown", event => {
-            if (event.code == "F1") {
+            if (event.code == "F8") {
                 event.preventDefault();
                 this.toggleMenu();
             }
