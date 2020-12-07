@@ -630,7 +630,6 @@ class Utilities {
         this.createListener(document, "keyup", event => {
             if (this.downKeys.has(event.code)) this.downKeys.delete(event.code)
         })
-
         this.createListener(document, "keydown", event => {
             if (event.code == "F1") {
                 event.preventDefault();
