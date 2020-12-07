@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name ApxCheat
-// @description A newly and safe developed Cheat from the apxcoding team
+// @description A newly and safe developed Cheat from the ApxCoding Team
 // @version 1.0
 // @author ApxCheats
 // @homepage https://github.com/apxcoding
@@ -73,7 +73,7 @@ class Utilities {
                 off: "Off",
                 correction: "Aim Correction",
                 assist: "Legit Aim Assist",
-                easyassist: "Easy Aim Assist",
+                easyassist: "Aim Assist",
                 silent: "Silent Aim",
                 trigger: "Trigger Bot",
                 quickScope: "Extreme Aimbot"
@@ -322,7 +322,7 @@ class Utilities {
                 html: () => this.generateSetting("checkbox", "wallPenetrate"),
             },
             weaponZoom: {
-				name: "Weapon Zoom",
+				name: "Weapon Scope Zoom",
 				val: 1.0,
 				min: 0,
 				max: 50.0,
@@ -332,9 +332,9 @@ class Utilities {
 			},
             autoBhop: {
                 pre: "<br><div class='setHed'>Player</div>",
-                name: "Auto Bhop Type",
+                name: "Auto Bunnyhop Type",
                 val: "off",
-                html: () => this.generateSetting("select", "autoBhop", this.lists.autoBhop),
+                html: () => this.generateSetting("select", "autoBunnyhop", this.lists.autoBhop),
             },
             thirdPerson: {
                 name: "Third Person",
