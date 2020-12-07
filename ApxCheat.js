@@ -632,7 +632,7 @@ class Utilities {
         })
 
         this.createListener(document, "keydown", event => {
-            if (event.code == "F8") {
+            if (event.code == "F1") {
                 event.preventDefault();
                 this.toggleMenu();
             }
